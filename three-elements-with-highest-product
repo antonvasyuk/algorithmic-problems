@@ -1,4 +1,4 @@
-def elements_with_highest_product_of_three(lst):
+def three_elements_with_highest_product(lst):
     '''this function finds three elements with highest product'''
     if len(lst) < 3:
         return
