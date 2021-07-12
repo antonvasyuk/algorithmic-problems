@@ -1,4 +1,4 @@
-def maketree(serialized):
+def make_tree(serialized):
     tree = {'left': None, 'right': None, 'up': None, 'type': 'root'}
     nownode = tree
     for sym in serialized:
