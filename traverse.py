@@ -1,4 +1,5 @@
 def traverse(root, prefix):
+    ''' обход дерева '''
     if root['left'] is None and root['right'] is None:
         return [''.join(prefix)]
     prefix.append('0')
