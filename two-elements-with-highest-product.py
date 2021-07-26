@@ -1,4 +1,5 @@
 def two_elements_with_highest_product(lst):
+    ''' возвращает два элемента с максимальным произведением '''
     if len(lst) < 2:
         return
     highest = max(lst[0], lst[1])
