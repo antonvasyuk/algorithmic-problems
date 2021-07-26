@@ -1,5 +1,5 @@
 def type_of_sequence(lst):
-    ''' возвращает тип последовательности'''
+    ''' возвращает тип последовательности '''
     if not lst:
         return 'EMPTY'
     constant = True
